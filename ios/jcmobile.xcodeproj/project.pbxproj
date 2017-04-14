@@ -606,7 +606,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = R86H3483T8;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2CED61A51EA0E7FC00B28E24 = {
 						DevelopmentTeam = R86H3483T8;
@@ -1130,10 +1130,10 @@
 			baseConfigurationReference = B9814DC7774DCDD72AB9BF70 /* Pods-jcmobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ivan Zmerzlyi (WDA99V9ALR)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R86H3483T8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/mobile-center-analytics/ios/RNAnalytics",
@@ -1148,8 +1148,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.justcoders.jcmobile;
 				PRODUCT_NAME = jcmobile;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "abb23492-a9f1-451c-9ec3-ec69d254c045";
+				PROVISIONING_PROFILE_SPECIFIER = JC_devvelopment;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1159,9 +1159,9 @@
 			baseConfigurationReference = 12A522DC0714F57AF43060D9 /* Pods-jcmobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ivan Zmerzlyi (R86H3483T8)";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R86H3483T8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/mobile-center-analytics/ios/RNAnalytics",
@@ -1176,8 +1176,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.justcoders.jcmobile;
 				PRODUCT_NAME = jcmobile;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "de1b479a-46d4-4029-ab2e-626d1bcaf150";
+				PROVISIONING_PROFILE_SPECIFIER = JC_AdHoc;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
