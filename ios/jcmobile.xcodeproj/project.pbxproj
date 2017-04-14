@@ -22,6 +22,24 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		2CED61A81EA0E7FC00B28E24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2CED61A91EA0E7FC00B28E24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2CED61AB1EA0E7FC00B28E24 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		2CED61AC1EA0E7FC00B28E24 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		2CED61AD1EA0E7FC00B28E24 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		2CED61AE1EA0E7FC00B28E24 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		2CED61AF1EA0E7FC00B28E24 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		2CED61B01EA0E7FC00B28E24 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		2CED61B11EA0E7FC00B28E24 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		2CED61B21EA0E7FC00B28E24 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		2CED61B31EA0E7FC00B28E24 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		2CED61B41EA0E7FC00B28E24 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		2CED61B51EA0E7FC00B28E24 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		2CED61B61EA0E7FC00B28E24 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37058F93A01F43FEA43062AA /* libRNAnalytics.a */; };
+		2CED61B71EA0E7FC00B28E24 /* libPods-jcmobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7AD74CCD08237CF18E4437 /* libPods-jcmobile.a */; };
+		2CED61B91EA0E7FC00B28E24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2CED61BA1EA0E7FC00B28E24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		2CED61BB1EA0E7FC00B28E24 /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7A9BDDAE8045A0BA2F6A39 /* MobileCenter-Config.plist */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		865CA5C0AD5AD659864CA917 /* libPods-jcmobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7AD74CCD08237CF18E4437 /* libPods-jcmobile.a */; };
@@ -242,6 +260,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = jcmobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = jcmobile/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		2CED61C21EA0E7FC00B28E24 /* jcmobile-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jcmobile-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CED61C31EA0E7FC00B28E24 /* jcmobile copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "jcmobile copy-Info.plist"; path = "/Users/ivan/JustCoders/jcmobile/ios/jcmobile copy-Info.plist"; sourceTree = "<absolute>"; };
 		37058F93A01F43FEA43062AA /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAnalytics.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -278,6 +298,26 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				98A063E95B754C8EB094B672 /* libRNAnalytics.a in Frameworks */,
 				865CA5C0AD5AD659864CA917 /* libPods-jcmobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CED61AA1EA0E7FC00B28E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CED61AB1EA0E7FC00B28E24 /* libReact.a in Frameworks */,
+				2CED61AC1EA0E7FC00B28E24 /* libRCTAnimation.a in Frameworks */,
+				2CED61AD1EA0E7FC00B28E24 /* libRCTActionSheet.a in Frameworks */,
+				2CED61AE1EA0E7FC00B28E24 /* libRCTGeolocation.a in Frameworks */,
+				2CED61AF1EA0E7FC00B28E24 /* libRCTImage.a in Frameworks */,
+				2CED61B01EA0E7FC00B28E24 /* libRCTLinking.a in Frameworks */,
+				2CED61B11EA0E7FC00B28E24 /* libRCTNetwork.a in Frameworks */,
+				2CED61B21EA0E7FC00B28E24 /* libRCTSettings.a in Frameworks */,
+				2CED61B31EA0E7FC00B28E24 /* libRCTText.a in Frameworks */,
+				2CED61B41EA0E7FC00B28E24 /* libRCTVibration.a in Frameworks */,
+				2CED61B51EA0E7FC00B28E24 /* libRCTWebSocket.a in Frameworks */,
+				2CED61B61EA0E7FC00B28E24 /* libRNAnalytics.a in Frameworks */,
+				2CED61B71EA0E7FC00B28E24 /* libPods-jcmobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +511,7 @@
 				CE7A9BDDAE8045A0BA2F6A39 /* MobileCenter-Config.plist */,
 				0A234D4A7F47202DAE945732 /* Pods */,
 				7F0C63A996F5086351648179 /* Frameworks */,
+				2CED61C31EA0E7FC00B28E24 /* jcmobile copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -481,6 +522,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* jcmobile.app */,
 				00E356EE1AD99517003FC87E /* jcmobileTests.xctest */,
+				2CED61C21EA0E7FC00B28E24 /* jcmobile-dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -527,6 +569,27 @@
 			productReference = 13B07F961A680F5B00A75B9A /* jcmobile.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2CED61A51EA0E7FC00B28E24 /* jcmobile-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CED61BF1EA0E7FC00B28E24 /* Build configuration list for PBXNativeTarget "jcmobile-dev" */;
+			buildPhases = (
+				2CED61A61EA0E7FC00B28E24 /* [CP] Check Pods Manifest.lock */,
+				2CED61A71EA0E7FC00B28E24 /* Sources */,
+				2CED61AA1EA0E7FC00B28E24 /* Frameworks */,
+				2CED61B81EA0E7FC00B28E24 /* Resources */,
+				2CED61BC1EA0E7FC00B28E24 /* Bundle React Native code and images */,
+				2CED61BD1EA0E7FC00B28E24 /* [CP] Embed Pods Frameworks */,
+				2CED61BE1EA0E7FC00B28E24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jcmobile-dev";
+			productName = "Hello World";
+			productReference = 2CED61C21EA0E7FC00B28E24 /* jcmobile-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -543,7 +606,11 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = R86H3483T8;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
+					};
+					2CED61A51EA0E7FC00B28E24 = {
+						DevelopmentTeam = R86H3483T8;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -611,6 +678,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* jcmobile */,
+				2CED61A51EA0E7FC00B28E24 /* jcmobile-dev */,
 				00E356ED1AD99517003FC87E /* jcmobileTests */,
 			);
 		};
@@ -819,6 +887,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2CED61B81EA0E7FC00B28E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CED61B91EA0E7FC00B28E24 /* Images.xcassets in Resources */,
+				2CED61BA1EA0E7FC00B28E24 /* LaunchScreen.xib in Resources */,
+				2CED61BB1EA0E7FC00B28E24 /* MobileCenter-Config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -835,6 +913,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		2CED61A61EA0E7FC00B28E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CED61BC1EA0E7FC00B28E24 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		2CED61BD1EA0E7FC00B28E24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jcmobile/Pods-jcmobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CED61BE1EA0E7FC00B28E24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jcmobile/Pods-jcmobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		47F148A8B68443E847B4D54E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -898,6 +1035,15 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CED61A71EA0E7FC00B28E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CED61A81EA0E7FC00B28E24 /* AppDelegate.m in Sources */,
+				2CED61A91EA0E7FC00B28E24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -987,12 +1133,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = R86H3483T8;
+				DEVELOPMENT_TEAM = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/mobile-center-analytics/ios/RNAnalytics",
 				);
 				INFOPLIST_FILE = jcmobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1001,8 +1148,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.justcoders.jcmobile;
 				PRODUCT_NAME = jcmobile;
-				PROVISIONING_PROFILE = "abb23492-a9f1-451c-9ec3-ec69d254c045";
-				PROVISIONING_PROFILE_SPECIFIER = JC_devvelopment;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1012,14 +1159,15 @@
 			baseConfigurationReference = 12A522DC0714F57AF43060D9 /* Pods-jcmobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ivan Zmerzlyi (R86H3483T8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R86H3483T8;
+				DEVELOPMENT_TEAM = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/mobile-center-analytics/ios/RNAnalytics",
 				);
 				INFOPLIST_FILE = jcmobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1028,8 +1176,65 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.justcoders.jcmobile;
 				PRODUCT_NAME = jcmobile;
-				PROVISIONING_PROFILE = "de1b479a-46d4-4029-ab2e-626d1bcaf150";
-				PROVISIONING_PROFILE_SPECIFIER = JC_AdHoc;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2CED61C01EA0E7FC00B28E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9814DC7774DCDD72AB9BF70 /* Pods-jcmobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = R86H3483T8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/mobile-center-analytics/ios/RNAnalytics",
+				);
+				INFOPLIST_FILE = "jcmobile copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.justcoders.jcmobile-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		2CED61C11EA0E7FC00B28E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A522DC0714F57AF43060D9 /* Pods-jcmobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R86H3483T8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/mobile-center-analytics/ios/RNAnalytics",
+				);
+				INFOPLIST_FILE = "jcmobile copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.justcoders.jcmobile-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1127,6 +1332,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CED61BF1EA0E7FC00B28E24 /* Build configuration list for PBXNativeTarget "jcmobile-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CED61C01EA0E7FC00B28E24 /* Debug */,
+				2CED61C11EA0E7FC00B28E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
