@@ -1,2 +1,1 @@
-# jc-mobile
-Justcoders Mobile app
+# Justcoders Mobile app
